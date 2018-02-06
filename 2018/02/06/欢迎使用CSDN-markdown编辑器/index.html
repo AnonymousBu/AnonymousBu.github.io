@@ -131,7 +131,7 @@
 
 
 
-  <title>Hello World | BUJUN</title>
+  <title>数字证书，数字签名，https，ssl等安全概念的解释 | BUJUN</title>
   <script type="text/javascript" src="/js/src/click.js"></script>
   
 
@@ -314,7 +314,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://dandelionhub.com/2018/02/05/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://dandelionhub.com/2018/02/06/欢迎使用CSDN-markdown编辑器/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="AnonymousBu">
@@ -331,7 +331,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">数字证书，数字签名，https，ssl等安全概念的解释</h1>
         
 
         <div class="post-meta">
@@ -343,7 +343,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-05T12:07:40+08:00">2018-02-05</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-06T12:09:49+08:00">2018-02-06</time>
             
 
             
@@ -357,10 +357,35 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-02-05T12:07:40+08:00">2018-02-05</time>
+              <time title="更新于" itemprop="dateModified" datetime="2018-01-10T19:37:07+08:00">2018-01-10</time>
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/等保/" itemprop="url" rel="index"><span itemprop="name">等保</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/等保/基础概念/" itemprop="url" rel="index"><span itemprop="name">基础概念</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -389,15 +414,18 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <ol>
+<li><p>讲这些概念之前，先讲讲非对称加密，与对称加密算法不同，非对称加密算法需要两个密钥：公开密钥（publickey）和私有密钥（privatekey）。公开密钥与私有密钥是一对，如果用公开密钥对数据进行加密，只有用对应的私有密钥才能解密；如果用私有密钥对数据进行加密，那么只有用对应的公开密钥才能解密。因为加密和解密使用的是两个不同的密钥，所以这种算法叫作非对称加密算法。非对称加密通常以RSA（Rivest Shamir Ad1eman）算法为代表。</p>
+<p>下面是一个windows的RSA加解密程序步骤：（oracle数据库中也使用RSA加密算法）<br>一：加密过程（公钥加密）<br>1．    首先创建一份空白文档，粘入一些文本内容，放在桌面文件夹1中就好了<br><img src="http://img.blog.csdn.net/20180110192341296?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p>
+</li>
+</ol>
+<p>2打开encry.exe 点击生成密钥文件</p>
+<p><img src="http://img.blog.csdn.net/20180110192538178?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>   <img src="http://img.blog.csdn.net/20180110192610459?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>3 在上放的钥文件中写入公钥的路径C:\Users\dell\Desktop\public.pem<br>在下方工作目录中写入文件的路径C:\Users\dell\Desktop\1\<br>  <img src="http://img.blog.csdn.net/20180110192652516?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>4点击加密，完成加密，这时你再打开文件夹1中的1.txt文本显示的是已加密的文档<br> <img src="http://img.blog.csdn.net/20180110192948775?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p>
+<p>二：解密过程（私钥解密）<br>5在上放的钥文件中写入私钥的路径C:\Users\dell\Desktop\private.pem<br>在下方工作目录中写入文件的路径C:\Users\dell\Desktop\1\<br> <img src="http://img.blog.csdn.net/20180110193321050?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p>
+<p>6点击解密，显示完成解密，这时你再打开文件夹1中的1.txt文本显示的是已解密的文档<br><img src="http://img.blog.csdn.net/20180110193333522?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p>
+<p> <img src="http://img.blog.csdn.net/20180110193405468?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p>
+<p>•    数字证书<br>•    一种文件的名称，好比一个机构或人的签名，能够证明这个机构或人的真实性。其中包含的信息，用于实现上述功能。其作用类似于现实生活中的身份证。最简单的证书包含一个公开密钥、名称以及证书授权中心的数字签名。一般情况下证书中还包括密钥的有效时间，发证机关(证书授权中心)的名称，该证书的序列号等信息。<br>•    数字证书是由认证中心颁发的。根证书是认证中心与用户建立信任关系的基础。在用户使用数字证书之前必须首先下载和安装。就是下面这个东东。例如：CA证书等<br>   <img src="http://img.blog.csdn.net/20180110193455297?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p>
+<p>•    数字签名<br>•    对文件进行加密只解决了传送信息的保密问题，而防止他人对传输的文件进行破坏，以及如何确定发信人的身份还需要采取其它的手段，这一手段就是数字签名。完善的数字签名应具备签字方不能抵赖、他人不能伪造、在公证人面前能够验证真伪的能力。<br>•    它的主要方式是，报文的发送方从报文文本中生成一个128位的散列值（或 报文摘要）。发送方用自己的私人密钥对这个散列值进行加密来形成发送方的数字签名。然后，这个数字签名将作为报文的附件和报文一起发送给报文的接收方。报文的接收方首先从接收到的原始报文中计算出128位的散列值（或报文摘要），接着再用发送方的公用密钥来对报文附加的数字签名进行解密。如果两个散列值相同、那么接收方就能确认该数字签名是发送方的。通过数字签名能够实现对原始报文的鉴别。<br>•    应用广泛的数字签名方法主要有三种，即：RSA签名、DSS签名和Hash签名。这三种算法可单独使用，也可综合在一起使用。<br>以下是一个Hash签名：sha1     同理MD5校验和PGP校验<br> <img src="http://img.blog.csdn.net/20180110193514754?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br> <img src="http://img.blog.csdn.net/20180110193528260?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br> Sha1校验不正确，被人捆绑木马<br>•    https<br>在http(超文本传输协议)基础上提出的一种安全的http协议，因此可以称为安全的超文本传输协议。http协议直接放置在TCP协议之上，而https提出在http和TCP中间加上一层加密层。从发送端看，这一层负责把http的内容加密后送到下层的TCP，从接收方看，这一层负责将TCP送来的数据解密还原成http的内容。<br>•    ssl<br>•    SSL安全协议最初是由Netscape Communication公司设计开发的，又叫“安全套接层（Secure Sockets Layer）协议”，主要用于提高应用程序之间的数据的传输安全。SSL协议的整个概念可以被总结为：一个保证安装了安全套接字的客户和服务器间事务安全的协议。从名字就可以看出它在https协议栈中负责实现上面提到的加密层。因此，一个https协议栈大致是这样的：<br>•     <img src="http://img.blog.csdn.net/20180110193550019?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>•     要说明的是，安全套接层协议是一个保证计算机通信安全的协议，对通信对话过程进行安全保护。例如，一台客户机与一台主机连接上了，首先是要初始化握手协议，然后就建立了一个SSL。对话进行。直到对话结束，安全套接层协议都会对整个通信过程加密，并且检查其完整性。这样一个对话时段算一次握手。而HTTP协议中的每一次连接就是一次握手，因此，与HTTP相比。安全套接层协议的通信效率会高一些。<br>    （1）接通阶段：客户通过网络向服务商打招呼，服务商回应；<br>    （2）密码交换阶段：客户与服务器之间交换双方认可的密码，一般选用RSA密码算法，也有的选用Diffie-Hellmanf和Fortezza-KEA密码算法；<br>    （3）会谈密码阶段：客户与服务商间产生彼此交谈的会谈密码；<br>    （4）检验阶段：检验服务商取得的密码；<br>    （5）客户认证阶段：验证客户的可信度；<br>    （6）结束阶段，客户与服务商之间相互交换结束的信息。<br>    当上述动作完成之后，两者间的资料传送就会加密，另外一方收到资料后，再将编码资料还原。即使盗窃者在网络上取得编码后的资料，如果没有原先编制的密码算法，也不能获得可读的有用资料。<br>•    注：<br>•    1：发送时信息用对称密钥加密，对称密钥用非对称算法加密，再把两个包绑在一起传送过去。接收的过程与发送正好相反，先打开有对称密钥的加密包，再用对称密钥解密。这种加密方式在很多场景都用到，之所以不始终用非对称加密，是由于非对称加密的加密解密速度缓慢，耗费资源。<br>•    2：由于ssl只是商家认证客户，没有客户认证商家的过程。所以后来有了一个set安全协协议。<br>•    3：本文第一种即非对称加密，此方法在进行大型文本校验时非常缓慢</p>
 
       
     </div>
@@ -433,6 +461,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/等保/" rel="tag"><i class="fa fa-tag"></i>等保</a>
+          
+        </div>
+      
 
       
       
@@ -442,14 +476,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/02/06/sqlmap1/" rel="next" title="SQLMAP DOCS">
+                <i class="fa fa-chevron-left"></i> SQLMAP DOCS
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/02/06/sqlmap/" rel="prev" title="SQLMAP update">
-                SQLMAP update <i class="fa fa-chevron-right"></i>
+              <a href="/2018/02/06/移动APP漏洞自动化检测平台建设 (1)/" rel="prev" title="app研究">
+                app研究 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -501,17 +539,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -623,22 +652,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       

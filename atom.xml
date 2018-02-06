@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BUJUN</title>
+  
+  <subtitle>Der Akita</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://dandelionhub.com/"/>
+  <updated>2018-01-07T08:55:44.423Z</updated>
+  <id>https://dandelionhub.com/</id>
+  
+  <author>
+    <name>AnonymousBu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>app服务端漏洞</title>
+    <link href="https://dandelionhub.com/2018/02/06/app%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AE%A1%E8%AE%A1/"/>
+    <id>https://dandelionhub.com/2018/02/06/app自动化审计/</id>
+    <published>2018-02-06T04:09:49.225Z</published>
+    <updated>2018-01-07T08:55:44.423Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一、&lt;br&gt;1.1 移动app大多通过web api服务的方式跟服务端交互，这种模式把移动安全跟web安全绑在一起。移动app以web服务的方式跟服务端交互，服务器端也是一个展示信息的网站，常见的web漏洞在这也存在,比如说SQL注入、文件上传、中间件/server漏洞等，
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>app研究</title>
+    <link href="https://dandelionhub.com/2018/02/06/%E7%A7%BB%E5%8A%A8APP%E6%BC%8F%E6%B4%9E%E8%87%AA%E5%8A%A8%E5%8C%96%E6%A3%80%E6%B5%8B%E5%B9%B3%E5%8F%B0%E5%BB%BA%E8%AE%BE%20(1)/"/>
+    <id>https://dandelionhub.com/2018/02/06/移动APP漏洞自动化检测平台建设 (1)/</id>
+    <published>2018-02-06T04:09:49.216Z</published>
+    <updated>2018-01-07T06:25:31.241Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.1石器时代 （2007-2011）&lt;br&gt;关键词：反编绎，人工审计&lt;br&gt;   2007年11年，Google正式发布了Android操作系统，2011年12月，Google发布了Android 2.3版本，Android 应用市场App数量突破10万个，随着Andro
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数字证书，数字签名，https，ssl等安全概念的解释</title>
+    <link href="https://dandelionhub.com/2018/02/06/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8CSDN-markdown%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    <id>https://dandelionhub.com/2018/02/06/欢迎使用CSDN-markdown编辑器/</id>
+    <published>2018-02-06T04:09:49.204Z</published>
+    <updated>2018-01-10T11:37:07.253Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;讲这些概念之前，先讲讲非对称加密，与对称加密算法不同，非对称加密算法需要两个密钥：公开密钥（publickey）和私有密钥（privatekey）。公开密钥与私有密钥是一对，如果用公开密钥对数据进行加密，只有用对应的私有密钥才能解密；如果用私有密钥对数据进
+      
+    
+    </summary>
+    
+      <category term="等保" scheme="https://dandelionhub.com/categories/%E7%AD%89%E4%BF%9D/"/>
+    
+      <category term="基础概念" scheme="https://dandelionhub.com/categories/%E7%AD%89%E4%BF%9D/%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/"/>
+    
+    
+      <category term="等保" scheme="https://dandelionhub.com/tags/%E7%AD%89%E4%BF%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQLMAP DOCS</title>
+    <link href="https://dandelionhub.com/2018/02/06/sqlmap1/"/>
+    <id>https://dandelionhub.com/2018/02/06/sqlmap1/</id>
+    <published>2018-02-06T04:09:49.194Z</published>
+    <updated>2018-01-07T06:15:08.801Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.sqlmap -u“被测试的url”&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20170921220100388?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzQwMDQ4MDk
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="工具" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="sqlmap" scheme="https://dandelionhub.com/tags/sqlmap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQLMAP update</title>
+    <link href="https://dandelionhub.com/2018/02/06/sqlmap/"/>
+    <id>https://dandelionhub.com/2018/02/06/sqlmap/</id>
+    <published>2018-02-06T04:03:16.485Z</published>
+    <updated>2018-01-07T06:15:06.814Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;简介：当渗透测试系统安装好时，你会发现sqlmap不是最新的。对于使用要求版本最新的人来说，必须要更新后才行。&lt;br&gt;一、linux系统更新sqlmap方法&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20170921202816362?wa
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="工具" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="sqlmap" scheme="https://dandelionhub.com/tags/sqlmap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://dandelionhub.com/2018/02/05/hello-world/"/>
+    <id>https://dandelionhub.com/2018/02/05/hello-world/</id>
+    <published>2018-02-05T04:07:40.980Z</published>
+    <updated>2018-02-05T04:07:40.980Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
