@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BUJUN</title>
+  
+  <subtitle>Der Akita</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://dandelionhub.com/"/>
+  <updated>2018-03-06T10:24:05.971Z</updated>
+  <id>https://dandelionhub.com/</id>
+  
+  <author>
+    <name>AnonymousBu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>4.1.1.2安全输入</title>
+    <link href="https://dandelionhub.com/archives/1cc59ca1.html"/>
+    <id>https://dandelionhub.com/archives/1cc59ca1.html</id>
+    <published>2018-03-06T10:24:30.160Z</published>
+    <updated>2018-03-06T10:24:05.971Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;h1 id=&quot;安全输入&quot;&gt;&lt;a href=&quot;#安全输入&quot; class=&quot;headerlink&quot; title=&quot;安全输入&quot;&gt;&lt;/a&gt;安全输入&lt;/h1&gt;&lt;h2
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MAC算法</title>
+    <link href="https://dandelionhub.com/archives/768f7e38.html"/>
+    <id>https://dandelionhub.com/archives/768f7e38.html</id>
+    <published>2018-03-06T07:58:45.543Z</published>
+    <updated>2018-03-06T09:00:25.559Z</updated>
+    
+    <summary type="html">
+    
+      The article has been encrypted, please enter your password to view.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>键盘窃听技术</title>
+    <link href="https://dandelionhub.com/archives/d25ac84.html"/>
+    <id>https://dandelionhub.com/archives/d25ac84.html</id>
+    <published>2018-03-06T07:39:05.511Z</published>
+    <updated>2018-03-06T07:55:33.182Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;h2 id=&quot;一、多功能Python键盘记录工具：Radium&quot;&gt;&lt;a href=&quot;#一、多功能Python键盘记录工具：Radium&quot; class=&quot;h
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3术语和定义</title>
+    <link href="https://dandelionhub.com/archives/979b93c2.html"/>
+    <id>https://dandelionhub.com/archives/979b93c2.html</id>
+    <published>2018-02-10T10:59:26.417Z</published>
+    <updated>2018-03-06T08:28:03.386Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;h1 id=&quot;术语和定义&quot;&gt;&lt;a href=&quot;#术语和定义&quot; class=&quot;headerlink&quot; title=&quot;术语和定义&quot;&gt;&lt;/a&gt;术语和定义&lt;/h1
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.1.1.1鉴别方式</title>
+    <link href="https://dandelionhub.com/archives/ed492ffd.html"/>
+    <id>https://dandelionhub.com/archives/ed492ffd.html</id>
+    <published>2018-02-10T10:59:26.417Z</published>
+    <updated>2018-03-06T08:28:26.380Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;h1 id=&quot;鉴别方式&quot;&gt;&lt;a href=&quot;#鉴别方式&quot; class=&quot;headerlink&quot; title=&quot;鉴别方式&quot;&gt;&lt;/a&gt;鉴别方式&lt;/h1&gt;&lt;h2
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>app服务端漏洞</title>
+    <link href="https://dandelionhub.com/archives/5371a48f.html"/>
+    <id>https://dandelionhub.com/archives/5371a48f.html</id>
+    <published>2018-02-06T04:09:49.225Z</published>
+    <updated>2018-03-06T08:34:05.391Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;移动app大多通过web api服务的方式跟服务端交互，这种模式把移动安全跟web安全绑在一起。移动app以web服务的方式跟服务端交互，服务器端也是
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>app研究</title>
+    <link href="https://dandelionhub.com/archives/5507d591.html"/>
+    <id>https://dandelionhub.com/archives/5507d591.html</id>
+    <published>2018-02-06T04:09:49.216Z</published>
+    <updated>2018-03-06T08:56:33.269Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;h2 id=&quot;石器时代-（2007-2011）&quot;&gt;&lt;a href=&quot;#石器时代-（2007-2011）&quot; class=&quot;headerlink&quot; title
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="app" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/app/"/>
+    
+    
+      <category term="app" scheme="https://dandelionhub.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数字证书，数字签名，https，ssl等安全概念的解释</title>
+    <link href="https://dandelionhub.com/archives/90ecce22.html"/>
+    <id>https://dandelionhub.com/archives/90ecce22.html</id>
+    <published>2018-02-06T04:09:49.204Z</published>
+    <updated>2018-03-06T08:51:51.789Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;讲这些概念之前，先讲讲非对称加密，与对称加密算法不同，非对称加密算法需要两个密钥：公开密钥（publickey）和私有密钥（privatekey）。公
+      
+    
+    </summary>
+    
+      <category term="等保" scheme="https://dandelionhub.com/categories/%E7%AD%89%E4%BF%9D/"/>
+    
+      <category term="基础概念" scheme="https://dandelionhub.com/categories/%E7%AD%89%E4%BF%9D/%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/"/>
+    
+    
+      <category term="等保" scheme="https://dandelionhub.com/tags/%E7%AD%89%E4%BF%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQLMAP DOCS</title>
+    <link href="https://dandelionhub.com/archives/3f8680b1.html"/>
+    <id>https://dandelionhub.com/archives/3f8680b1.html</id>
+    <published>2018-02-06T04:09:49.194Z</published>
+    <updated>2018-03-06T08:39:07.981Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;h1 id=&quot;sqlmap-u“被测试的url”&quot;&gt;&lt;a href=&quot;#sqlmap-u“被测试的url”&quot; class=&quot;headerlink&quot; tit
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="工具" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="sqlmap" scheme="https://dandelionhub.com/tags/sqlmap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQLMAP update</title>
+    <link href="https://dandelionhub.com/archives/d16945a3.html"/>
+    <id>https://dandelionhub.com/archives/d16945a3.html</id>
+    <published>2018-02-06T04:03:16.485Z</published>
+    <updated>2018-03-06T08:36:21.844Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 06 2018 18:33:32 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;简介：当渗透测试系统安装好时，你会发现sqlmap不是最新的。对于使用要求版本最新的人来说，必须要更新后才行。&lt;/p&gt;&lt;h1 id=&quot;linux系统更
+      
+    
+    </summary>
+    
+      <category term="渗透" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="工具" scheme="https://dandelionhub.com/categories/%E6%B8%97%E9%80%8F/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="sqlmap" scheme="https://dandelionhub.com/tags/sqlmap/"/>
+    
+  </entry>
+  
+</feed>
